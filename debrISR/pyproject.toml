@@ -1,13 +1,28 @@
 [project]
 name = "debrisr"
 version = "0.1.0"
-description = "Add your description here"
+description = "Experimental ISR based space debris detection analysis tool"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
 
 [project.scripts]
 debrisr = "debrisr:main"
+
+[project.optional-dependencies]
+dev = [
+    "mypy>=1.13.0",
+    "ruff>=0.7.3",
+]
+
+[tool.mypy]
+warn_return_any = true
+strict = true
+
+[tool.ruff]
+select = ["ALL"]
+line-length = 93
+ignore = ["D203", "D212", "D401", "COM812", "ISC001", "D100", "D103", "D104", "D101", "S101"]
 
 [build-system]
 requires = ["hatchling"]
