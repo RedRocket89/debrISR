@@ -1,7 +1,7 @@
 # debrISR
 An attempt at using experimental incoherent scatter radar `ISR` measurements to detect space debris.
 
->NOTE: Any user attempting to use this codebase should know the physics of ISR debris detection still require maturation and should **NOT** be using any code from this in any production environment
+>NOTE: Any user attempting to use this codebase should know the physics of ISR debris detection still require maturation and should **NOT** be using any part of this codebase in any production environment
 
 ## Installation
 TBA - (i.e when there is something of substance :grin:)
