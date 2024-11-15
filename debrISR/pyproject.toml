@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Experimental ISR based space debris detection analysis tool"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "gnss-lib-py>=1.0.3",
+]
 
 [project.scripts]
 debrisr = "debrisr:main"
